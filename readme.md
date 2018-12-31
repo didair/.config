@@ -29,3 +29,4 @@ in that file will overwrite the settings in this repo.
 ## Todo
 1. Write a very simple installation script that creates the symlinks needed.
 2. List all the vim plugins installed here and maybe some basic info about them.
+3. Also include python setup etc. In the installation section of this readme
