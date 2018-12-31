@@ -12,13 +12,13 @@ No tmux config is currently present in this configuration.
 ## Vim
 ### Themes
 
-https://vimcolors.com/823/blayu/dark
-https://vimcolors.com/871/synthetic/dark
-https://vimcolors.com/874/snazzy/dark
-https://github.com/haishanh/night-owl.vim
+* https://vimcolors.com/823/blayu/dark
+* https://vimcolors.com/871/synthetic/dark
+* https://vimcolors.com/874/snazzy/dark
+* https://github.com/haishanh/night-owl.vim
 
 ### Plugins
-https://github.com/chrisbra/NrrwRgn
+* https://github.com/chrisbra/NrrwRgn
 
 ### Extend the configuration
 Want to make your own changes that doesnt affect the repository?
