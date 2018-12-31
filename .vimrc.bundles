@@ -1,0 +1,37 @@
+if &compatible
+	set nocompatible
+end
+
+call plug#begin()
+
+" Necessary dependencies
+Plug 'scrooloose/nerdtree'
+"Plug 'powerline/powerline'
+
+" Other helpers
+Plug 'airblade/vim-gitgutter'
+Plug 'valloric/matchtagalways'
+Plug 'mattn/emmet-vim'
+Plug 'chrisbra/NrrwRgn'
+
+" Syntax plugins
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'lumiliet/vim-twig'
+
+" Improve iTerm2 and Tmux
+" https://github.com/sjl/vitality.vim
+Plug 'sjl/vitality.vim'
+
+" TeaCode plugin 
+Plug 'dustinknopoff/TeaCode-Vim-Extension'
+
+" Color schemes
+Plug 'connorholyday/vim-snazzy'
+Plug 'semibran/vim-colors-synthetic'
+Plug 'tjammer/blayu.vim'
+Plug 'haishanh/night-owl.vim'
+
+" Initialize plugin system
+call plug#end()

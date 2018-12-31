@@ -1,0 +1,32 @@
+" These themes are installed by the plugin manager and are available
+" after running :PlugInstall
+
+" synthetic
+" snazzy
+" blayu
+" night-owl
+
+" And these themes should be available by default
+
+" blue
+" darkblue
+" default
+" delek
+" desert
+" elflord
+" evening
+" koehler
+" morning
+" murphy
+" pablo
+" peachpuff
+" ron
+" shine
+" slate
+" torte
+" zellner
+
+" Configure the active color scheme here
+" ( will overwrite any setting in .vimrc )
+
+colorscheme snazzy

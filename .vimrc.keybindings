@@ -1,0 +1,48 @@
+" Map space to leader
+map <Space> <Leader>
+
+" Re-map Emmet trigger
+let g:user_emmet_leader_key = '<S-Tab>'
+
+" Leader Mappings
+map <Leader>w :update<CR>
+map <Leader>q :qall<CR>
+
+" Use ctrl-[hjkl] to select the active split!
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
+
+" NERDTree bindings
+nmap <Leader>n :NERDTreeFind<CR>
+nmap <Leader>b :NERDTreeToggle<CR>
+
+" Open file under cursor with gf
+nnoremap gf :vertical wincmd f<CR>
+
+" Tab commands
+map <A-Right> gt
+map <A-Left> gT
+
+" Map g<Number> to fast switch to a specific tab
+map g1 :tabn1<CR>
+map g2 :tabn2<CR>
+map g3 :tabn3<CR>
+map g4 :tabn4<CR>
+map g5 :tabn5<CR>
+map g6 :tabn6<CR>
+map g7 :tabn7<CR>
+map g8 :tabn8<CR>
+map g9 :tabn9<CR>
+
+" Map jk to Esc for leaving insert mode without escape key
+imap jk <Esc>
+imap <C-e> <C-O>:call TeaCodeExpand()<CR>
+
+" bind K to search word under cursor
+nnoremap K wb?<C-R><C-W><CR>:cw<CR>
+
+" Smart braces spacing
+inoremap {<Tab> {<CR>}<Esc>O
+
