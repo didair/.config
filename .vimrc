@@ -123,6 +123,7 @@ let g:jsx_ext_required = 0
 " Treat <li> and <p> tags like the block tags they are
 let g:html_indent_tags = 'li\|p'
 
+" Enable MatchTagAlways for these files
 let g:mta_filetypes = {
 	\ 'html' : 1,
 	\ 'xhtml' : 1,
