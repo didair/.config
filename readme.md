@@ -15,7 +15,7 @@ No tmux config is currently present in this configuration.
 * https://vimcolors.com/823/blayu/dark
 * https://vimcolors.com/871/synthetic/dark
 * https://vimcolors.com/874/snazzy/dark `(default)`
-* http://vimcolors.com/813/night-owl/dark
+* https://vimcolors.com/813/night-owl/dark
 
 ### Plugins
 * https://github.com/chrisbra/NrrwRgn
