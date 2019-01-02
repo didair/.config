@@ -6,7 +6,6 @@ call plug#begin()
 
 " Necessary dependencies
 Plug 'scrooloose/nerdtree'
-"Plug 'powerline/powerline'
 
 " Other helpers
 Plug 'airblade/vim-gitgutter'
