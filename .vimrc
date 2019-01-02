@@ -124,14 +124,14 @@ let g:jsx_ext_required = 0
 let g:html_indent_tags = 'li\|p'
 
 let g:mta_filetypes = {
-	\ 'html': 1,
-	\ 'xhtml': 1,
-	\ 'xml': 1,
-	\ 'jinja': 1,
-	\ 'phtml': 1,
-	\ 'php': 1,
-	\ 'jsx': 1,
-	\ 'js': 1,
+	\ 'html' : 1,
+	\ 'xhtml' : 1,
+	\ 'xml' : 1,
+	\ 'jinja' : 1,
+	\ 'phtml' : 1,
+	\ 'php' : 1,
+	\ 'jsx' : 1,
+	\ 'js' : 1,
 \}
 
 " Enable mouse if its supported

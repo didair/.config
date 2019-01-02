@@ -46,3 +46,9 @@ nnoremap K wb?<C-R><C-W><CR>:cw<CR>
 " Smart braces spacing
 inoremap {<Tab> {<CR>}<Esc>O
 
+" Jumps to the enclosing tag if the tag is visible.
+" If you are on top of an opening tag, it will jump to the closing tag.
+" If you are on the closing tag, it will jump to the opening tag.
+" If you are inside a tag, then it will jump to the closing tag.
+nnoremap % :MtaJumpToOtherTag<cr>
+
