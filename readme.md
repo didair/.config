@@ -47,13 +47,14 @@ in that file will overwrite the settings in this repo.
 
 ### Other notes
 1. Why no Powerline in Vim?
+
 Instead of Powerline i included the .vimrc.statusline, it's a "ghetto" powerline
 and it looks about the same if a powerline font is configured for the terminal.
-
 But why? Well basically Powerline kills performance in Vim and for some it's to
 the point where it makes it unusable.
 
 2. What is TeaCode?
+
 It's an awesome snippet manager for Mac OS, you can read more about it here: https://www.apptorium.com/teacode
 If you don't want the plugin installed you should be able to do an `Unplug
 'dustinknopoff/Teacode-Vim-Extension` in your `.vimrc.local` file.
