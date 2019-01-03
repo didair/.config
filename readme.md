@@ -45,6 +45,24 @@ Want to make your own changes that doesnt affect the repository?
 Create a file named `.vimrc.local` in the `~/.config` directory, all settings made
 in that file will overwrite the settings in this repo.
 
+### Keybindings
+1. `<Space>` is bound as `<Leader>`
+2. Tab triggers Emmet
+3. `<Leader>w` triggers :update
+4. `<Leader>q` :qall
+5. Use ctrl+[hjkl] to navigate between splits (including NERDTree)
+6. `<Leader>n` Focuses / Opens NERDTree window and highlights the current file
+7. `<Leader>b` Toggles NERDTree window
+8. `gf` opens new split with file under cursor
+9. `gT` and `gt` navigates back and forth between tabs
+10. `g-[1-9]` goes to a specific tab
+11. `jk` exits insert mode
+12. `ctrl+e` triggers TeaCode expander
+13. `K` (capital K) searches for word under cursor
+14. `%` jump between corresponding <tags>
+15. shift+tab (`<S-Tab>`) opens the autocomplete menu
+16. `<Leader>nr` makes a new narrow split with the current visual selection
+
 ### Other notes
 1. Why no Powerline in Vim?
 
