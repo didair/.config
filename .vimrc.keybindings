@@ -1,8 +1,8 @@
 " Map space to leader
 map <Space> <Leader>
 
-" Re-map Emmet trigger
-let g:user_emmet_leader_key = '<S-Tab>'
+" Re-map Emmet trigger to Tab
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " Leader Mappings
 map <Leader>w :update<CR>
@@ -51,4 +51,7 @@ inoremap {<Tab> {<CR>}<Esc>O
 " If you are on the closing tag, it will jump to the opening tag.
 " If you are inside a tag, then it will jump to the closing tag.
 nnoremap % :MtaJumpToOtherTag<cr>
+
+" Remap autocomplete menu to Shift-Tab
+inoremap <S-Tab> <C-x><C-n>
 
