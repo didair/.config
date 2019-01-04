@@ -1,7 +1,20 @@
 ## Installation
-`TODO`
+`WIP`
+1. Clone this repo to ~/.config
+2. cd .config
+3. Run `sh install.sh`
+This script will install chunkwm & skhd from brew. It will also create symlinks
+for the configuration files used by Vim and chunkwm and the autoload directory.
 
-But basically clone this repo to ~/ and symlink the .vimrc to ~/ & autoload folder to `~/.vim/autoload`.
+After the script is complete, you should run these commands to add chunkwm to
+services.
+```
+$ brew services start chunkwm
+$ brew services start skb
+```
+
+If you do not wish to use chunkwm, you can just uninstall these packages
+again..
 
 ## Shell
 ### Powerline
