@@ -59,7 +59,7 @@ in that file will overwrite the settings in this repo.
 11. `jk` exits insert mode
 12. `ctrl+e` triggers TeaCode expander
 13. `K` (capital K) searches for word under cursor
-14. `%` jump between corresponding <tags>
+14. `%` jump between corresponding tags
 15. shift+tab (`<S-Tab>`) opens the autocomplete menu
 16. `<Leader>nr` makes a new narrow split with the current visual selection
 
