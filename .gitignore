@@ -1,3 +1,4 @@
 .vimrc.local
 configstore/
 configstore/*
+filezilla/*
