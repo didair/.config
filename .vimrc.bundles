@@ -31,6 +31,7 @@ Plug 'connorholyday/vim-snazzy'
 Plug 'semibran/vim-colors-synthetic'
 Plug 'tjammer/blayu.vim'
 Plug 'haishanh/night-owl.vim'
+Plug 'vim-scripts/Fruidle'
 
 " Initialize plugin system
 call plug#end()
