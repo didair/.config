@@ -65,3 +65,27 @@ chunkc set focused_border_skip_floating  1
 
 chunkc core::load border.so
 chunkc core::load tiling.so
+
+
+#
+# Ignore apps
+#        These apps will be set to a floating state
+#
+
+chunkc tiling::rule --owner \"Spotify\" --state float &
+chunkc tiling::rule --owner \"Messages\" --state float &
+chunkc tiling::rule --owner \"Photos\" --state float &
+chunkc tiling::rule --owner \"Slack\" --state float &
+chunkc tiling::rule --owner \"Franz\" --state float &
+chunkc tiling::rule --owner \"Preview\" --state float &
+chunkc tiling::rule --owner \"Facetime\" --state float &
+chunkc tiling::rule --owner \"Calculator\" --state float &
+chunkc tiling::rule --owner \"Microsoft Teams\" --state float &
+chunkc tiling::rule --owner \"The Unarchiver\" --state float &
+chunkc tiling::rule --owner \"VirtualBox\" --state float &
+chunkc tiling::rule --owner \"TeaCode\" --state float &
+chunkc tiling::rule --owner \"iTunes\" --state float &
+chunkc tiling::rule --owner \"App Store\" --state float &
+chunkc tiling::rule --owner \"System Preferences\" --state float &
+chunkc tiling::rule --owner \"Sourcetree\" --state float &
+

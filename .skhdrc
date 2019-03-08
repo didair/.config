@@ -4,6 +4,20 @@ alt - f : chunkc tiling::window --toggle fullscreen
 # change focus between tiling / floating windows
 shift + alt - space : chunkc tiling::window --toggle float
 
+# Go to next and prev desktop with n / m keys
+ctrl + alt - n : chunkc tiling::desktop --focus prev
+ctrl + alt - m : chunkc tiling::desktop --focus next
+
+# Create and destroy desktop with c / x
+ctrl + alt - c : chunkc tiling::desktop --create
+ctrl + alt - x : chunkc tiling::desktop --annihilate
+
+# Go to desktop [1-4]
+ctrl + alt - 1 : chunkc tiling::desktop --focus 1
+ctrl + alt - 2 : chunkc tiling::desktop --focus 2
+ctrl + alt - 3 : chunkc tiling::desktop --focus 3
+ctrl + alt - 4 : chunkc tiling::desktop --focus 4
+
 # change layout of desktop
 alt - e : chunkc tiling::desktop --layout bsp
 alt - s : chunkc tiling::desktop --layout monocle
