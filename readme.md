@@ -34,10 +34,11 @@ as well.
 ## Vim
 ### Themes
 
-* https://vimcolors.com/823/blayu/dark
-* https://vimcolors.com/871/synthetic/dark
-* https://vimcolors.com/874/snazzy/dark `(default)`
-* https://vimcolors.com/813/night-owl/dark
+* https://vimcolors.com/823/blayu/dark `dark`
+* https://vimcolors.com/871/synthetic/dark `dark`
+* https://vimcolors.com/874/snazzy/dark `dark (default)`
+* https://vimcolors.com/813/night-owl/dark `dark`
+* https://vimcolors.com/808/fruidle/light `light`
 
 ### Plugins
 * https://github.com/chrisbra/NrrwRgn
