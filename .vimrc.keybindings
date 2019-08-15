@@ -19,7 +19,7 @@ nmap <Leader>n :NERDTreeFind<CR>
 nmap <Leader>b :NERDTreeToggle<CR>
 
 " Open file under cursor with gf
-nnoremap gf :vertical wincmd f<CR>
+nnorema gf :vertical wincmd f<CR>
 
 " Tab commands
 map <A-Right> gt
@@ -42,6 +42,9 @@ imap <C-e> <C-O>:call TeaCodeExpand()<CR>
 
 " bind K to search word under cursor
 nnoremap K wb?<C-R><C-W><CR>:cw<CR>
+
+" bind <shift>, (;) to perform jump to next and repeat last action
+nnoremap ; n.
 
 " Smart braces spacing
 inoremap {<Tab> {<CR>}<Esc>O
